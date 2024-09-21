@@ -29,7 +29,7 @@ const Hero = () => {
         </div>
       </nav>
 
-      <section className="w-full flex flex-col justify-between py-20 lg:flex-row ">
+      <section className="w-full flex flex-col justify-between pt-20 pb-10 lg:flex-row ">
         <div className="w-full flex flex-col gap-3 sm:gap-5 items-center lg:items-start">
           <h1 className="text-4xl sm:text-6xl font-thin tracking-tight lg:mt-5 lg:text-7xl text-white text-center lg:text-left lg:mb-5">
             Anushka Pokharel
@@ -96,6 +96,7 @@ const Hero = () => {
           </motion.button>
         </div>
       </section>
+      <hr  className="border-neutral-900"/>
     </div>
   );
 };
