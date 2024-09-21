@@ -113,7 +113,9 @@ const Hero = () => {
         </motion.div>
 
         <div className="text-white w-full lg:hidden flex items-center justify-center mt-6">
-          <motion.button
+          <motion.a
+            href="https://drive.google.com/file/d/1WJYtZVHqYPS0Q6MLhXDCWPu1KX90XLL4/view?usp=drive_link"
+            target="_blank"
             drag
             dragConstraints={{
               top: -10,
@@ -127,7 +129,7 @@ const Hero = () => {
             className="w-[300px] sm:w-[200px] bg-gradient-to-r from-purple-500 to-pink-500 py-2 px-4 rounded-md font-normal text-white shadow-lg hover:shadow-2xl hover:brightness-90"
           >
             View CV
-          </motion.button>
+          </motion.a>
         </div>
       </section>
       <hr className="border-neutral-900" />
