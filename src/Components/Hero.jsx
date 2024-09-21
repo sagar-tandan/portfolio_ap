@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <div className="w-full flex flex-col gap-10 p-10 max-w-screen-xl mx-auto">
+    <div className="w-full flex flex-col gap-10 p-10 max-w-screen-xl mx-auto overflow-x-hidden">
       <nav className="w-full flex justify-between items-center">
         <img className="w-[50px]" src="" alt="img" />
         <div className="flex gap-3 text-white ">
@@ -46,7 +46,7 @@ const Hero = () => {
             />
           </div>
 
-          <p className="text-white font-thin max-w-lg lg:max-w-screen-2xl px-[2px] sm:px-0">
+          <p className="text-white font-light max-w-lg lg:max-w-screen-2xl px-[2px] sm:px-0">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
             adipisci perferendis libero dolor maxime, sapiente, distinctio
             debitis vitae corrupti molestias aperiam modi veniam soluta non

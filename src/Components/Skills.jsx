@@ -7,7 +7,6 @@ import { IoLogoReact } from "react-icons/io5";
 import { FaPhp } from "react-icons/fa";
 import { IoLogoHtml5 } from "react-icons/io5";
 import { GiArtificialIntelligence } from "react-icons/gi";
-
 import { motion } from "framer-motion";
 
 const iconVarients = (duration) => ({
@@ -25,7 +24,7 @@ const iconVarients = (duration) => ({
 
 const Skills = () => {
   return (
-    <div className="w-full flex flex-col gap-10 p-10 max-w-screen-xl mx-auto text-white">
+    <div className="w-full flex flex-col gap-10 px-10 py-5 max-w-screen-xl mx-auto text-white ">
       <motion.h1
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
@@ -39,7 +38,7 @@ const Skills = () => {
         whileInView={{ opacity: 1, x: 0 }}
         initial={{ opacity: 0, x: -100 }}
         transition={{ duration: 1.5 }}
-        className="w-full flex gap-6 justify-center"
+        className="w-full flex gap-6 justify-center flex-wrap"
       >
         <motion.div
           variants={iconVarients(2.5)}
