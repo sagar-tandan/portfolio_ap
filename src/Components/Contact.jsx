@@ -19,7 +19,7 @@ const Contact = () => {
           initial={{ opacity: 0, x: -100 }}
           transition={{ duration: 0.5 }}
         >
-          Biratnagar Hathkhola-7, Mealen Chowk
+          Biratnagar-7, Mealen Chowk
         </motion.h1>
         <motion.a
           whileInView={{ opacity: 1, x: 0 }}
