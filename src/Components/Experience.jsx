@@ -131,7 +131,7 @@ const Experience = () => {
         </div>
       </section>
 
-      <hr className="border-neutral-900" />
+      <hr className="border-neutral-900 mt-10" />
     </div>
   );
 };

@@ -15,19 +15,21 @@ const Projects = () => {
         Projects
       </motion.h1>
 
-      <div className="w-full flex lg:gap-10 lg:justify-between max-w-screen-md mx-auto lg:flex-row flex-col gap-2">
-        <motion.div
+      <div className="w-full flex lg:gap-10 md:justify-between max-w-screen-md mx-auto md:flex-row flex-col gap-5">
+        <motion.a
+          href="https://drive.google.com/file/d/1sDl7m2FEPyLa7OoityGhKPxpctaqpST6/view?usp=drive_link"
+          target="_blank"
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}
           transition={{ duration: 1 }}
-          className="text-[#9a9a9a] font-medium w-[200px]"
+          className="text-[#9a9a9a] font-medium md:w-[200px] w-full"
         >
           <img
-            className="w-full h-[180px] object-cover rounded-md"
+            className="w-full md:h-[180px] h-[300px] object-cover rounded-md"
             src={minor}
             alt=""
           />
-        </motion.div>
+        </motion.a>
         <motion.div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 100 }}
@@ -60,19 +62,21 @@ const Projects = () => {
           </div>
         </motion.div>
       </div>
-      <div className="w-full flex lg:gap-10 lg:justify-between max-w-screen-md mx-auto lg:flex-row flex-col gap-2">
-        <motion.div
+      <div className="w-full flex lg:gap-10 md:justify-between max-w-screen-md mx-auto md:flex-row flex-col gap-5">
+        <motion.a
+          href="https://drive.google.com/file/d/1hKQfW0YWUBUlkstTBeX6CzrgVX__2Hnx/view?usp=drive_link"
+          target="_blank"
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}
           transition={{ duration: 1 }}
-          className="text-[#9a9a9a] font-medium w-[200px]"
+          className="text-[#9a9a9a] font-medium md:w-[200px] w-full"
         >
           <img
-            className="w-full h-[180px] object-cover rounded-md"
+            className="w-full md:h-[180px] h-[300px] object-cover rounded-md"
             src={major}
             alt=""
           />
-        </motion.div>
+        </motion.a>
         <motion.div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 100 }}
@@ -105,7 +109,7 @@ const Projects = () => {
           </div>
         </motion.div>
       </div>
-      <hr className="border-neutral-900" />
+      <hr className="border-neutral-900 mt-10" />
     </div>
   );
 };

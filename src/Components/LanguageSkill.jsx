@@ -35,31 +35,31 @@ const LanguageSkill = () => {
         transition={{ duration: 1.5 }}
         className="w-full flex gap-4 justify-center flex-wrap"
       >
-        <motion.div className="flex gap-5 border-[3px] border-neutral-800 px-6 py-2 rounded-md">
+        <div className="flex gap-5 border-[3px] border-neutral-800 px-6 py-2 rounded-md">
           <img className="w-10 h-10 object-cover" src={nepal} alt="" />
           <div className="flex flex-col w-[200px]">
             <h1>Nepali</h1>
             <span>Native Lanuage</span>
           </div>
-        </motion.div>
+        </div>
 
-        <motion.div className="flex gap-5 border-[3px] border-neutral-800 px-6 py-2 rounded-md">
+        <div className="flex gap-5 border-[3px] border-neutral-800 px-6 py-2 rounded-md">
           <img className="w-10 h-10 object-cover" src={english} alt="" />
           <div className="flex flex-col w-[200px]">
             <h1>English</h1>
             <span>Fluent (IELTS : 7.5)</span>
           </div>
-        </motion.div>
+        </div>
 
-        <motion.div className="flex gap-5 border-[3px] border-neutral-800 px-6 py-2 rounded-md">
+        <div className="flex gap-5 border-[3px] border-neutral-800 px-6 py-2 rounded-md">
           <img className="w-10 h-10 object-cover" src={japan} alt="" />
           <div className="flex flex-col w-[200px] ">
             <h1>Japanese</h1>
             <span>N4 level </span>
           </div>
-        </motion.div>
+        </div>
       </motion.div>
-      <hr className="border-neutral-900" />
+      <hr className="border-neutral-900 mt-10" />
     </div>
   );
 };
