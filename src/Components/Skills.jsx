@@ -105,7 +105,7 @@ const Skills = () => {
           <GiArtificialIntelligence className="w-16 h-16 text-[#1297be]" />
         </motion.div> */}
       </motion.div>
-      <hr className="border-neutral-900" />
+      <hr className="border-neutral-900 mt-10" />
     </div>
   );
 };

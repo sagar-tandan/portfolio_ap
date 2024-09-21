@@ -17,14 +17,14 @@ const Contact = () => {
         <motion.h1
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}
-          transition={{ duration: 1 }}
+          transition={{ duration: 0.5 }}
         >
-          Location
+          Biratnagar Hathkhola-7, Mealen Chowk
         </motion.h1>
         <motion.a
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}
-          transition={{ duration: 1 }}
+          transition={{ duration: 0.5, delay: 0.5 }}
           href={`mailto:anushkapokharel200@gmail.com`}
           className="border-b cursor-pointer"
         >
