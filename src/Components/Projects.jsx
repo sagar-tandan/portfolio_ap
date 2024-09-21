@@ -16,9 +16,7 @@ const Projects = () => {
       </motion.h1>
 
       <div className="w-full flex lg:gap-10 md:justify-between max-w-screen-md mx-auto md:flex-row flex-col gap-5">
-        <motion.a
-          href="https://drive.google.com/file/d/1sDl7m2FEPyLa7OoityGhKPxpctaqpST6/view?usp=drive_link"
-          target="_blank"
+        <motion.div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}
           transition={{ duration: 1 }}
@@ -29,7 +27,7 @@ const Projects = () => {
             src={minor}
             alt=""
           />
-        </motion.a>
+        </motion.div>
         <motion.div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 100 }}
@@ -38,10 +36,11 @@ const Projects = () => {
         >
           <h1 className="font-normal text-[18px]">Hair Fall Prediction</h1>
           <span className="max-w-xl text-[#9a9a9a]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-            inventore, qui illum dolor nobis modi fugiat aspernatur, harum
-            dignissimos cumque cupiditate quos quibusdam tempore velit molestiae
-            magnam cum. Necessitatibus iste dolore expedita. Quis.
+            The project uses an Artificial Neural Network (ANN) to predict hair
+            fall based on 22 factors like heredity and shedding rates.Using data
+            from online surveys, it achieved 80% accuracy, and facilitate early
+            hair loss prediction, encouraging timely consultations with
+            dermatologists.
           </span>
           <div className="flex gap-3 flex-wrap text-sm">
             <span className="bg-neutral-900 text-white px-4 py-1 rounded-sm">
@@ -63,9 +62,7 @@ const Projects = () => {
         </motion.div>
       </div>
       <div className="w-full flex lg:gap-10 md:justify-between max-w-screen-md mx-auto md:flex-row flex-col gap-5">
-        <motion.a
-          href="https://drive.google.com/file/d/1hKQfW0YWUBUlkstTBeX6CzrgVX__2Hnx/view?usp=drive_link"
-          target="_blank"
+        <motion.div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}
           transition={{ duration: 1 }}
@@ -76,7 +73,7 @@ const Projects = () => {
             src={major}
             alt=""
           />
-        </motion.a>
+        </motion.div>
         <motion.div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 100 }}
@@ -87,10 +84,10 @@ const Projects = () => {
             Realtime Object detection-based self-driving car
           </h1>
           <span className="max-w-xl text-[#9a9a9a]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-            inventore, qui illum dolor nobis modi fugiat aspernatur, harum
-            dignissimos cumque cupiditate quos quibusdam tempore velit molestiae
-            magnam cum. Necessitatibus iste dolore expedita. Quis.
+            The project "Real-Time Object Detection-Based Self-Driving Car" uses
+            deep learning and hardware like Raspberry Pi to develop an
+            autonomous car that detects and avoids obstacles, enhancing road
+            safety and minimizing human error in driving.
           </span>
 
           <div className="flex gap-3 flex-wrap text-sm">

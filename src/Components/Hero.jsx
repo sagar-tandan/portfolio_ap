@@ -10,7 +10,9 @@ const Hero = () => {
   return (
     <div className="w-full flex flex-col gap-10 pt-10 pb-10 max-w-screen-2xl mx-auto overflow-x-hidden md:px-32 px-5">
       <nav className="w-full flex justify-between items-center">
-        <img className="w-[70px]" src={logo} alt="img" />
+        <a href="/">
+          <img className="w-[70px]" src={logo} alt="img" />
+        </a>
         <div className="flex gap-3 text-white ">
           <a
             href="https://www.linkedin.com/in/anushka-pokharel-697b571b4/"
@@ -68,12 +70,12 @@ const Hero = () => {
             transition={{ duration: 0.5, delay: 1 }}
             className="text-white font-light max-w-lg lg:max-w-screen-2xl px-[2px] sm:px-0"
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
-            adipisci perferendis libero dolor maxime, sapiente, distinctio
-            debitis vitae corrupti molestias aperiam modi veniam soluta non
-            temporibus a recusandae aliquid consequuntur amet nesciunt rerum.
-            Enim amet nemo ipsa deserunt laborum ad itaque aperiam tempora
-            dolores.
+            I am a computer engineer, graduated from the Institute of
+            Engineering, Tribhuvan University in 2023. Currently, I am a
+            lecturer at Eastern College of Engineering, affiliated with
+            Purwanchal University, where I teach and mentor students in various
+            computer science subjects. My passion for education and technology
+            drives me to continually explore advancements in the field.
           </motion.p>
 
           <div className="text-white w-full lg:flex hidden">

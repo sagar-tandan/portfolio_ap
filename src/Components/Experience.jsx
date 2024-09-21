@@ -36,10 +36,10 @@ const Experience = () => {
               </span>
             </h1>
             <span className="max-w-xl text-[#9a9a9a]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-              inventore, qui illum dolor nobis modi fugiat aspernatur, harum
-              dignissimos cumque cupiditate quos quibusdam tempore velit
-              molestiae magnam cum. Necessitatibus iste dolore expedita. Quis.
+              I am a lecturer at Eastern College of Engineering, Purwanchal
+              University, teaching C++ and Numerical Methods to undergraduates,
+              focusing on building a strong programming and computational
+              foundation for practical applications.
             </span>
           </motion.div>
         </div>
@@ -64,10 +64,12 @@ const Experience = () => {
               <span className="text-[16px] font-normal">Kasturi College</span>
             </h1>
             <span className="max-w-xl text-[#9a9a9a]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-              inventore, qui illum dolor nobis modi fugiat aspernatur, harum
-              dignissimos cumque cupiditate quos quibusdam tempore velit
-              molestiae magnam cum. Necessitatibus iste dolore expedita. Quis.
+              After graduation, I worked as a computer science teacher for Plus
+              Two students at Kasturi Academy, teaching programming languages
+              like C, HTML, JavaScript, and CSS, as well as core computer
+              science subjects based on the National Examination Board syllabus.
+              I also conducted bootcamps on Artificial Intelligence and Cloud
+              Computing.
             </span>
           </motion.div>
         </div>
@@ -94,10 +96,12 @@ const Experience = () => {
               </span>
             </h1>
             <span className="max-w-xl text-[#9a9a9a]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-              inventore, qui illum dolor nobis modi fugiat aspernatur, harum
-              dignissimos cumque cupiditate quos quibusdam tempore velit
-              molestiae magnam cum. Necessitatibus iste dolore expedita. Quis.
+              I served as the vice president of the Nepal Student Union, a
+              student organization dedicated to the welfare of students
+              collaborated with the campus committee. During my tenure, we
+              organized various technical workshops, including web development
+              and hackathons, and arranged inter-college sports competitions
+              such as cricket and football.
             </span>
           </motion.div>
         </div>
@@ -122,10 +126,11 @@ const Experience = () => {
               <span className="text-[16px] font-normal">ERC Girls Society</span>
             </h1>
             <span className="max-w-xl text-[#9a9a9a]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-              inventore, qui illum dolor nobis modi fugiat aspernatur, harum
-              dignissimos cumque cupiditate quos quibusdam tempore velit
-              molestiae magnam cum. Necessitatibus iste dolore expedita. Quis.
+              I was a general member of the ERC Girls Society, an initiative
+              formed by female students at our campus to support women in the
+              field of technology. The society worked to address challenges
+              faced by female students and organized various programs to promote
+              their growth and engagement in tech.
             </span>
           </motion.div>
         </div>
