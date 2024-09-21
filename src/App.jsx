@@ -1,6 +1,9 @@
 import About from "./Components/About.jsx";
+import Contact from "./Components/Contact.jsx";
 import Experience from "./Components/Experience.jsx";
 import Hero from "./Components/Hero.jsx";
+import LanguageSkill from "./Components/LanguageSkill.jsx";
+import Projects from "./Components/Projects.jsx";
 import Skills from "./Components/Skills.jsx";
 
 function App() {
@@ -14,6 +17,9 @@ function App() {
         {/* <About /> */}
         <Skills />
         <Experience />
+        {/* <Projects /> */}
+        <LanguageSkill />
+        <Contact />
       </div>
     </div>
   );

@@ -24,11 +24,11 @@ const iconVarients = (duration) => ({
 
 const Skills = () => {
   return (
-    <div className="w-full flex flex-col gap-10 px-10 py-5 max-w-screen-xl mx-auto text-white ">
+    <div className="w-full flex flex-col gap-10 lg:px-10 px-6 py-5 max-w-screen-xl mx-auto text-white ">
       <motion.h1
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
-        transition={{ duration: 1.5 }}
+        transition={{ duration: 1 }}
         className="w-full text-center text-4xl mb-6 tracking-wide"
       >
         Technologies
