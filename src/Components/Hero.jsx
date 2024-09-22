@@ -126,7 +126,7 @@ const Hero = () => {
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 0.5 }}
-            className="w-[300px] sm:w-[200px] bg-gradient-to-r from-purple-500 to-pink-500 py-2 px-4 rounded-md font-normal text-white shadow-lg hover:shadow-2xl hover:brightness-90"
+            className="w-[300px] sm:w-[200px] bg-gradient-to-r from-purple-500 to-pink-500 py-2 px-4 rounded-md font-normal text-white shadow-lg hover:shadow-2xl hover:brightness-90 text-center"
           >
             View CV
           </motion.a>
