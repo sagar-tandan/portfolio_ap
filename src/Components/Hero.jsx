@@ -80,7 +80,7 @@ const Hero = () => {
 
           <div className="text-white w-full lg:flex hidden">
             <motion.a
-              href="https://drive.google.com/file/d/1WJYtZVHqYPS0Q6MLhXDCWPu1KX90XLL4/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1Rf8a5rFDoI7ExakeMoqS2247lRykAxIY/view?usp=drive_link"
               target="_blank"
               drag
               dragConstraints={{
@@ -114,7 +114,7 @@ const Hero = () => {
 
         <div className="text-white w-full lg:hidden flex items-center justify-center mt-6">
           <motion.a
-            href="https://drive.google.com/file/d/1WJYtZVHqYPS0Q6MLhXDCWPu1KX90XLL4/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1Rf8a5rFDoI7ExakeMoqS2247lRykAxIY/view?usp=drive_link"
             target="_blank"
             drag
             dragConstraints={{
