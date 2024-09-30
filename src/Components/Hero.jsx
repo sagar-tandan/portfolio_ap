@@ -5,6 +5,7 @@ import { FaInstagram } from "react-icons/fa6";
 import profile from "../assets/profilee.jpg";
 import logo from "../assets/log.png";
 import { motion } from "framer-motion";
+import Cv from "../assets/CV.pdf";
 
 const Hero = () => {
   return (
@@ -80,7 +81,8 @@ const Hero = () => {
 
           <div className="text-white w-full lg:flex hidden">
             <motion.a
-              href="https://drive.google.com/file/d/1Rf8a5rFDoI7ExakeMoqS2247lRykAxIY/view?usp=drive_link"
+              // href="https://drive.google.com/file/d/1Rf8a5rFDoI7ExakeMoqS2247lRykAxIY/view?usp=drive_link"
+              href={Cv}
               target="_blank"
               drag
               dragConstraints={{
@@ -114,7 +116,8 @@ const Hero = () => {
 
         <div className="text-white w-full lg:hidden flex items-center justify-center mt-6">
           <motion.a
-            href="https://drive.google.com/file/d/1Rf8a5rFDoI7ExakeMoqS2247lRykAxIY/view?usp=drive_link"
+            // href="https://drive.google.com/file/d/1Rf8a5rFDoI7ExakeMoqS2247lRykAxIY/view?usp=drive_link"
+            href={Cv}
             target="_blank"
             drag
             dragConstraints={{
